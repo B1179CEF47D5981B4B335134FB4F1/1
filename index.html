@@ -1,99 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BsM+FJEwYH3]As{V7G<%meI(CLxkWJ=:89kTbY~.uz*_i%A?>HJ[KE^k-6laymr</title>
-    <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        .section {
-            margin-bottom: 40px;
-            border: 1px solid #333;
-            padding: 20px;
-            background-color: #222;
-            border-radius: 10px; /* Rounded corners */
-        }
-        .section h2 {
-            margin-top: 0;
-            font-size: 24px; /* Increased font size */
-            border-bottom: 1px solid #333; /* Underline */
-            padding-bottom: 10px; /* Space between title and products */
-        }
-        .product {
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-        .product h2 {
-            margin-top: 0;
-        }
-        .price {
-            color: #00ff00;
-            font-size: 18px;
-        }
-        .amount {
-            color: #999;
-            font-size: 15px;
-        }
-    </style>
+    <title>POOX MARKET</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-         <a href="https://discord.com/invite/rCSeK7EKQC" target="_blank" style="display: block; text-align: center; text-decoration: none; background-color: #7289DA; color: #fff; padding: 10px 20px; border-radius: 5px; margin-bottom: 20px;">Discord</a>
-        
-        <div class="section">
-            <h2>Roblox</h2>
-            <div class="product">
-                <h2>A1: Robux</h2>
-                <p class="price">5€ <span class="amount">/ 5000R$</span></p>
-            </div>
-            <div class="product">
-                <h2>A2: Roblox Accounts</h2>
-                <p class="price">Varies</p>
-            </div>
-            <div class="product">
-                <h2>A3: Roblox ID verification</h2>
-                <p class="price">5€ <span class="amount">/ Account</span></p>
-            </div>
+    <header>
+        <h1>POOX</h1>
+    </header>
+    <main>
+        <section id="marketplace">
+           
+        </section>
+    </main>
+    
+    <div id="chatbox-container">
+    <div id="chatbox">
+        <div id="chat-input">
+            <input type="text" placeholder="Type a message..." disabled />
+            <span class="tooltip">You need to purchase a product to send messages</span>
         </div>
-
-        <div class="section">
-            <h2>Miscellaneous</h2>
-            <div class="product">
-                <h2>B1: Hitman pro [3 YEARS]</h2>
-                <p class="price">20€ <span class="amount">/ Per License</span></p>
-            </div>
-            <div class="product">
-                <h2>B2: Mass Report</h2>
-                <p class="price">1€ <span class="amount">/ 10 Reports</span></p>
-            </div>
-            <div class="product">
-                <h2>B3: Logger Builder</h2>
-                <p class="price">5€ <span class="amount">/ 3 Months</span></p>
-            </div>
-            <div class="product removed">
-                <h2>B4: FAKE ID [REMOVED]</h2>
-                <p class="amount">[REDACTED]</p>
-            </div>
-            <div class="product">
-                <h2>B5: Access to Rage Tool</h2>
-                <p class="price">10€ <span class="amount">/ 3 Months</span>
-            </div>
-        </div>
-
     </div>
+    <div id="chat-messages"></div>
+</div>
+    
+    <script src="scripts.js"></script>
 </body>
+
 </html>
