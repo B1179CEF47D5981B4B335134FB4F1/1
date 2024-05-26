@@ -56,6 +56,7 @@ header img.logo {
    border: none;
    border-radius: 5px;
    font-size: 16px;
+   text-decoration:none;
 }
 
 .header-container {
